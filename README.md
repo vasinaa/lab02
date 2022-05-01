@@ -69,7 +69,7 @@ cat > hello_world.cpp <<EOF
 ```
 
 
-_3.**commit, push** локальную ветку в удалённый репозиторий.
+_3.**commit, push** локальную ветку в удалённый репозиторий._
 ```
 git add hello_world.cpp
 git commit -m " new version"
@@ -77,8 +77,11 @@ git push origin patch1
 ```
 
 _4.Проверьте, что ветка ```patch1``` доступна в удалёный репозитории._
+
 _5.Создайте pull-request ``` patch1 -> master```._
+
 _6.В локальной копии в ветке  ```patch1``` добавьте в исходный код комментарии._
+
 _7. **commit, push.**
 ```
 git add hello_world.cpp
@@ -86,7 +89,9 @@ git commit -m "comments"
 git push origin patch1
 ```
 _8.Проверьте, что новые изменения есть в созданном на **шаге 5** pull-request_
+
 _9.В удалённый репозитории выполните слияние PR ``` patch1 -> master``` и удалите ветку ``` patch1``` в удаленном репозитории._
+
 _10.Локально выполните **pull**._
 ```
 git pull origin main
@@ -187,7 +192,9 @@ git commit -m "Mozilla codestyle"
 git push origin patch2
 ```
 _4.В ветке master в удаленном репозитории измените комментарии, например, расставьте знаки препинания, переведите комментарии на другой язык._
+
 _5.Убедитесь, что в pull-request появились конфликтны._
+
 _6.Для этого локально выполните pull + rebase (точную последовательность команд, следует узнать самостоятельно). Исправьте конфликты._
 ```
 git rebase main
@@ -195,7 +202,9 @@ git push --force origin patch2
 ```
 
 _7.Сделайте force push в ветку ```patch2```_
+
 _8.Убедитель, что в pull-request пропали конфликтны._
+
 _9.Вмержите pull-request ```patch2 -> master.```_
 
   
