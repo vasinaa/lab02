@@ -184,6 +184,7 @@ _12.Удалите локальную ветку ```patch1```._
 # Part 3
 _1.Создайте новую локальную ветку ```patch2```._
 ```git checkout -b patch2```
+
 _2.Измените ``` code style``` с помощью утилиты ``` clag-format```. Например, используя опцию ``` -style=Mozilla```._
 
 _3.commit, push, создайте pull-request ```patch2 -> master```._
