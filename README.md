@@ -2,13 +2,13 @@
 # Part 1
 _1.Создайте пустой репозиторий на сервисе github.com (или gitlab.com, или bitbucket.com)._
 _2.Выполните инструкцию по созданию первого коммита на странице репозитория, созданного на предыдещем шаге._
-***
+```
 mkdir lab02 && cd lab02
 git init
 git remote add origin git@github.com:vasinaa/lab02.git
 git branch -m main
 git pull origin main
-***
+```
 _3.Создайте файл *** hello_world.cpp *** в локальной копии репозитория (который должен был появиться на шаге 2). Реализуйте программу *** Hello world *** на языке C++ используя плохой стиль кода. Например, после заголовочных файлов вставьте строку  *** busing namespace std; *** ._
 *** 
 hello_world.cpp <<EOF
