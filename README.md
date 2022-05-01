@@ -9,7 +9,7 @@ git remote add origin git@github.com:vasinaa/lab02.git
 git branch -m main
 git pull origin main
 ```
-_3.Создайте файл *** hello_world.cpp *** в локальной копии репозитория (который должен был появиться на шаге 2). Реализуйте программу *** Hello world *** на языке C++ используя плохой стиль кода. Например, после заголовочных файлов вставьте строку  *** busing namespace std; *** ._
+_3.Создайте файл ```hello_world.cpp``` в локальной копии репозитория (который должен был появиться на шаге 2). Реализуйте программу ```Hello world ``` на языке C++ используя плохой стиль кода. Например, после заголовочных файлов вставьте строку  ``` using namespace std; ``` ._
 *** 
 hello_world.cpp <<EOF
 #include <iostream>
